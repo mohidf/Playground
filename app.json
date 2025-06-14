@@ -33,6 +33,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "supabase": {
+        "url": "@EXPO_PUBLIC_SUPABASE_URL",
+        "anonKey": "@EXPO_PUBLIC_SUPABASE_ANON_KEY"
+      }
     }
   }
 }
